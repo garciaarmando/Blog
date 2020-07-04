@@ -73,40 +73,31 @@ nav .profile-link a {
     font-weight: bold;
 }
 
-main {
-    background-image: url(../assets/img/Cover.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
+.blogs-main {
     display: grid;
-    grid-template-rows: 2 1fr;
 }
 
-main .main-container-title {
-    color: white;
-    font-size: 35px;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
-    width: 100vw;
-    letter-spacing: 10px;
-    font-weight: bold;
+.blogs-news-container {
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
 }
 
-main .main-content-button {
-    width: 130px;
-    height: 50px;
-    justify-self: center;
-    background: #47cfad;
-    font-size: 20px;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
 }
 
-main .blogs-main {
-    background: white;
+.blogs-news-img-container {
+    grid-column: 1;
+}
+
+.blogs-news-img-container img {}
+
+.blogs-news-info-container {
+    grid-column: 2;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
 }
