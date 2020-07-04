@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap");
 body {
     margin: 0;
     padding: 0;
@@ -68,13 +69,14 @@ nav .profile-link {
 nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
-    font-family: monospace;
+    /* font-family: monospace; */
     font-weight: bold;
 }
 
 main {
-    background-image: url(/assets/img/Cover.png);
+    background-image: url(../assets/img/Cover.png);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -84,11 +86,14 @@ main {
 
 main .main-container-title {
     color: white;
-    font-family: monospace;
-    font-size: 50px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 35px;
     align-self: center;
     justify-self: center;
     text-align: center;
+    width: 100vw;
+    letter-spacing: 10px;
+    font-weight: bold;
 }
 
 main .main-content-button {
