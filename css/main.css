@@ -46,7 +46,7 @@ header .header-icons-container .icons span {
 nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 90px;
+    grid-template-rows: 1fr;
 }
 
 nav .nav-logo-container {
@@ -54,8 +54,7 @@ nav .nav-logo-container {
 }
 
 nav .nav-logo-container img {
-    width: 350px;
-    margin-top: 10px;
+    width: 300px;
 }
 
 nav .profile-link {
@@ -63,9 +62,42 @@ nav .profile-link {
     align-items: center;
     justify-content: flex-end;
     margin-right: 50px;
+    font-size: 25px;
 }
 
 nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+main {
+    background-image: url(/assets/img/Cover.png);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2 1fr;
+}
+
+main .main-container-title {
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+main .main-content-button {
+    width: 130px;
+    height: 50px;
+    justify-self: center;
+    background: #47cfad;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
 }
