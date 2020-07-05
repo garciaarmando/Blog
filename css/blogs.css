@@ -5,6 +5,11 @@ body {
     padding: 0;
 }
 
+.grid-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
 a {
     text-decoration: none;
     display: inline;
@@ -101,6 +106,7 @@ nav .profile-link a {
 
 .blogs-posts-container {
     padding: 0 50px 40px;
+    text-align: center;
 }
 
 .blogs-posts-container h3 {
@@ -121,6 +127,7 @@ nav .profile-link a {
     padding-left: 10px;
     max-width: 30%;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .blogs-posts-container .post-container p {
